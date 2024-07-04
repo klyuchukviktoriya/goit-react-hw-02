@@ -1,0 +1,38 @@
+.table {
+  border-collapse: collapse;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.tableHeader {
+}
+
+.tableHeaderCell {
+  color: #fff;
+  background-color: #116466;
+}
+
+.tableRow {
+}
+
+.tableRow:nth-child(even) {
+  background-color: #b0637d;
+}
+
+.tableCell {
+  width: 300px;
+  border: 3px solid #123c69;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.type {
+  padding-left: 48px;
+  text-align: left;
+}
+
+.amount {
+  padding-right: 48px;
+  text-align: right;
+}
