@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.container > li {
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.good {
+  background-color: #6edd739e;
+}
+
+.neutral {
+  background-color: #f2f680a3;
+}
+
+.bad {
+  background-color: #fc896fa4;
+}

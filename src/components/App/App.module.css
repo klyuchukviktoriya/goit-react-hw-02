@@ -1,0 +1,12 @@
+.container {
+  border: 10px solid #ffffff87;
+  border-radius: 16px;
+  width: 860px;
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #ffffff27;
+  box-shadow: 0 8px 16px
+    rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px 5px
+    rgba(0, 0, 0, 0.2);
+}

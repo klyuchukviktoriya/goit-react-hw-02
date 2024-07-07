@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 48px;
+}
+
+.text:last-child {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 720px;
+}

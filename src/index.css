@@ -1,18 +1,22 @@
 :root {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: 0.03em;
-  color: #123c69;
-  background-color: #edc7b7;
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  );
+  text-shadow: 2px 2px 5px
+    rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  color: #333;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 1280px;
-  margin: 0 auto;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
 h1,
