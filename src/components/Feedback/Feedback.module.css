@@ -1,23 +1,33 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  column-gap: 40px;
+  row-gap: 20px;
   justify-content: center;
-}
-
-.container > li {
+  border: 5px solid #ffffff87;
   padding: 20px;
   border-radius: 16px;
 }
 
-.good {
+.container > li {
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px
+    rgba(0, 0, 0, 0.4);
+  background-color: #ffffffcd;
+  text-align: center;
+  width: 180px;
+}
+
+.container > li.good {
   background-color: #6edd739e;
 }
 
-.neutral {
+.container > li.neutral {
   background-color: #f2f680a3;
 }
 
-.bad {
+.container > li.bad {
   background-color: #fc896fa4;
 }
